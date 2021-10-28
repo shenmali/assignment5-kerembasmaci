@@ -1,0 +1,7 @@
+{% for skor in skorlar %}
+
+
+
+<p> {{skor.name}} {{skor.score}} {{ (skor.score >70) ?  'PASS' : 'FAIL!' }}   </p>
+</br>
+{%endfor%}
